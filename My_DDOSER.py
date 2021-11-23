@@ -41,7 +41,7 @@ while cont!= "n" and "no":
         port = 80
         print(f"{ran3}Port 80 is selected ")
     else:
-        print(f"{ran}{port}is selected! ")
+        print(f"{ran}{port} is selected! ")
 
     fake_ip = input(f"{ran}Type fake ip to hide your identity: ")
 
