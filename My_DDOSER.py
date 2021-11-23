@@ -65,6 +65,9 @@ while cont!= "n" and "no":
             
         except TimeoutError:
             print("Server time out! Try again")
+            
+        except ConnectionRefusedError:
+            print(ran,"You've typed wrong ip address")
 
         
         
