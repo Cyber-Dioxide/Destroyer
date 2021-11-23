@@ -19,7 +19,7 @@ pink='\033[95m'
 lightcyan='\033[96m'
 all_col = [red,green,orange,cyan,lightgrey,lightred,lightgreen,yellow,lightcyan]
 ran = random.choice(all_col)
-
+os.system("clear")
 name = pyfiglet.figlet_format("Destoyer")
 d = pyfiglet.figlet_format("DDOS")
 
@@ -32,7 +32,7 @@ print(f"{ran3}",("  "*3),"[+] Follow me on instagram @saadkhan041\n[+] V_1.0")
 ran4 = random.choice(all_col)
 cont = ""
 while cont!= "n" and "no":
-    os.system("clear")
+    
     target = input("Enter Target ip: ")
     try:
 
