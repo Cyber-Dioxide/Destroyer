@@ -28,7 +28,7 @@ ran2 = random.choice(all_col)
 print(f"{ran2}{d}")
 ran3 = random.choice(all_col)
 print("-"*20,"\n")
-print(f"{ran3}",("  "*3),"[+] Follow me on instagram @saadkhan041\n[+] V_1.0")
+print(f"{ran3}",("  "*3),"[+] Follow me on instagram @saadkhan041\n\n[+] V_1.0\n\n")
 ran4 = random.choice(all_col)
 cont = ""
 while cont!= "n" and "no":
