@@ -45,7 +45,9 @@ while cont!= "n" and "no":
 
     fake_ip = input(f"{ran}Type fake ip to hide your identity: ")
 
-    range_of_req = int(input(f"{ran2}Enter the ramge of requests: "))
+    range_of_req = int(input(f"{ran2}Enter the range of requests: "))
+    
+    print(lightred , "Wait untill all requests are sent"+("_ "*10))
 
     def ddos(port=80):
         try:
@@ -60,6 +62,9 @@ while cont!= "n" and "no":
 
         except KeyboardInterrupt:
             print(f"{ran}Have a Good Day :-)")
+            
+        except TimeoutError:
+            print("Server time out! Try again")
 
         
         
