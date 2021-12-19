@@ -8,7 +8,7 @@ A tool to make any website or web server busy by sending requests of your own pr
 4. python3 My.DDOSER.py
 
 Now
-1.Type victim Ip address
+1. Type victim Ip address
 2. Type port
 3. Type fake IP address
 
