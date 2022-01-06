@@ -2,16 +2,11 @@ import os
 import platform
 s = platform.platform()
 import webbrowser
+from scripts.banner import banner2 , banner , clear
 
+clear()
+webbrowser.open("my.html")
 
-if "Windows" in s:
-    webbrowser.open("my.html")
-
-else:
-    os.system("xdg-open my.html")
-
-
-    os.system("xdg-open my.html")
 try:
     import pyfiglet
 
@@ -21,7 +16,7 @@ import threading
 from scripts.sprint import sprint
 import socket
 import time
-from scripts.banner import banner2 , banner , clear
+
 from scripts.colors import ran , c , lc ,ly , lg , lr , r , y
 
 banner()

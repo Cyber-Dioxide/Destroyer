@@ -1,4 +1,5 @@
 import os
+import platform
 
 logo = f"""
  ██████████   ██████████      ███████     █████████ 
@@ -40,4 +41,8 @@ def banner2():
     print(c.ran + '-' * 63)
 
 def clear():
-    os.system("clear")
+    s = platform.platform()
+    if "Windows" in s:
+        os.system("cls")
+    else:
+        os.system("clear")
