@@ -1,5 +1,9 @@
 # Destroyer
 A tool to make any website or web server busy by sending requests of your own preference! If you have any question iam mostly active on Instagram @saadkhan041 or @coding_memz
+# Service
+* To get your own custom hacking tool, dm me on instagram @coding_memz
+* Get the 14M passwords list containing worlds mostly used passwords, dm me on instagram @coding_memz.
+* Get the worlds best hacking course, dm me on instagram @coding_memz
 
 # Usage
 1. git clone https://github.com/Cyber-Dioxide/Destroyer
