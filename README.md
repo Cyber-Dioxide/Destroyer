@@ -5,6 +5,13 @@ A tool to make any website or web server busy by sending requests of your own pr
 * Get the 14M passwords list containing worlds mostly used passwords, dm me on instagram @coding_memz.
 * Get the worlds best hacking course, dm me on instagram @coding_memz
 
+# New Relese
+This tool is no longer updated. I've coded much better version of this tool that can attack on all layers with firewall non detection function. The tool is paid. Contact me on telegram @coding_memz
+![Screenshot 2023-07-15 102211](https://github.com/Cyber-Dioxide/Destroyer/assets/93708296/497b1d8a-85fe-4348-bf27-9893627efe6e)
+![Screenshot 2023-07-15 102941](https://github.com/Cyber-Dioxide/Destroyer/assets/93708296/e27c5c8a-6ae1-459c-a4dc-a67ccb2284d8)
+![Screenshot 2023-07-15 100002](https://github.com/Cyber-Dioxide/Destroyer/assets/93708296/f7ad0a0c-8b81-4823-a85f-d655d4388252)
+
+The banners are different bcz i was testing it. You ask me to set custom banner name of your choice.
 # Usage
 1. git clone https://github.com/Cyber-Dioxide/Destroyer
 2. cd Destroyer
