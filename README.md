@@ -26,4 +26,4 @@ Now
 Wait untill all requests are sent!
 
 # Help
-if you are facing any error,or any help,any suggestion, dm me on instagram @cyber_dioxide_
+if you are facing any error,or any help,any suggestion, dm me on instagram @coding_memz
